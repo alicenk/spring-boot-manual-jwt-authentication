@@ -1,0 +1,15 @@
+2024-05-27 19:02:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found (this database is empty); SQL statement:
+select u1_0.id,u1_0.email,u1_0.name,u1_0.password,u1_0.user_code from users u1_0 where u1_0.id=? [42104-214]
+2024-05-27 19:04:59 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found (this database is empty); SQL statement:
+SELECT * FROM USERS [42104-214]
+2024-05-27 19:05:13 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found (this database is empty); SQL statement:
+SELECT * FROM Users [42104-214]
+2024-05-27 19:06:01 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found (this database is empty); SQL statement:
+SELECT * FROM USERS [42104-214]
+2024-05-27 19:07:54 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM USERS[*]:"; SQL statement:
+SELECT * FROM USERS: [42000-214]
